@@ -1,0 +1,133 @@
+Telegram obunachilari dasturining yangu vesiyasida  50 ta variant mavjud.  Barcha xususiyatlar quyida tavsiflanadi bazilari faol emas. shu saba faol varyantlar bilan tanishing.
+
+Dasturni Shoirjon Mamazokirov kodlashtirgan 
+
+ 1. Login :- Ushbu parametrdan foydalanib siz telegran akkauntingizga kirishingiz mumkin
+
+  2. Banfilter + Remover :- Ushbu filtr taqiqlangan hisobingizni olib tashlashi mumkin
+
+  3. spambotchecker + olib tashlash:- Bu parametr sizning hisobingiz cheklangan yoki cheklanganligini tekshiradi, shuningdek cheklangan hisobni olib tashlashi mumkin
+
+  4. Scraper :- Bu oddiy qirg'ich.  Ushbu qirg'ich yordamida siz Guruhlar/Kanallardan 200k dan ortiq a'zolarni qirib tashlashingiz mumkin
+
+  5. Shaxsiy qirg'ich:- Bu qirg'ich shaxsiy guruh/kanal a'zolarini qirib tashlashi mumkin
+ 
+ 6. Kundalik filtr:- Ushbu filtr so'nggi 24 soat ichida 
+onlayn bo'lgan a'zolarni qirib tashlaydi
+
+  7. Haftalik filtr:- Ushbu filtr so'nggi 7 kun ichida onlayn bo'lgan a'zolarni qirib tashlaydi
+
+  8. Scrap Admin :- Ushbu qirg'ich faqat guruh/kanaldagi administratorlarni qirib tashlashi mumkin
+
+  9. Oylik filtr:- Ushbu filtr so'nggi 7 hafta ichida onlayn bo'lgan a'zolarni qirib tashlaydi
+
+  10. Faol bo'lmagan filtr: - Bu a'zoni qirg'ichdan chiqarishi mumkin So'nggi marta uzoq vaqt oldin ko'rilgan
+
+  11. DeleteAlreadyMember :- Bu data.csv dagi allaqachon qirib tashlangan a'zoni olib tashlashi mumkin bo'lgan filtr turi.
+
+  12. Profil rasmini o'rnatish: - Shu orqali siz o'z akkauntlaringizga rasm o'rnatishingiz mumkin
+
+  13. Profil rasmini o'chirish: - Hisob qaydnomangizdagi profil rasmini o'chirish.
+
+  14. Telefon uchun kontaktni avtomatik qo'shish:- Bu sizning hisobingiz kontaktlariga a'zo qo'shishi mumkin.
+
+  15. Kontaktni o'chirish: - Hisobingizdagi barcha kontaktlarni o'chiring
+
+  16. Ommaviy qo'shuvchi :- Bu ommaviy a'zolarni guruhlarga qo'shishi mumkin.
+
+  17. Yagona qo'shuvchi :- Yagona a'zo qo'shish
+
+  18. Qo'shtiruvchi: - Yagona hisobdan qo'shish
+
+  19. Yagona qo'shilgan qo'shuvchi :- Qo'shilgan guruhga qo'shish.
+
+  20. Username Adder : - Foydalanuvchi nomi bo'yicha a'zolarni qo'shing
+
+  21. Foydalanuvchi identifikatori qo'shuvchi: - Foydalanuvchi identifikatori bo'yicha qo'shing.  Ko'rsatmalarga diqqat bilan amal qilmasangiz, UserIDInvalidError olasiz.
+
+  22. Multiple Adder PC :- Bir nechta hisobdan qo'shish bir vaqtning o'zida qo'shing, lekin faqat kompyuter uchun
+
+  23. Guruhga/Kanalga qo'shiling: - Ommaviy hisoblardan havola orqali guruh yoki kanalga qo'shiling
+
+  24. Guruhni/Kanalni tark eting:- Guruh yoki kanalni ommaviy hisoblardan havola orqali tark eting
+
+  25. Telegran OTP Viewer :- Telegram otp xabarlarini ko'radi
+
+  26. Xabar yuborish: - Guruh a'zolariga xabar yuboring, siz undan reklama uchun foydalanishingiz mumkin
+
+  27. Foydalanuvchiga spam haqida xabar berish:- Guruhlarda yoki PM/DM orqali spam yuborgan foydalanuvchi haqida xabar berish
+
+  28. Scam Tag: - Firibgarlarga firibgarlik tegini bering.
+
+  29. Hisobni blokirovka qilmoqchi bo'lgan hisobni shu yerga qo'shing.
+
+  30. Barcha Antiban hisobini olib tashlang.
+
+  31. Termux/Device Info-ni oling
+
+  32. Exit :- Skriptdan chiqish
+
+ Ko'rsatmalar: -
+
+
+  1-qadam: - Avval 1-variant bo'yicha skriptda hisobingizga kiring
+
+  2-qadam: - Ikkinchidan, qirg'ichdan 4-variantdan foydalaning, keyin siz a'zo qo'shishingiz mumkin
+
+  3-qadam: - Guruhga a'zo qo'shish uchun foydalanuvchi nomi qo'shuvchidan foydalaning, chunki foydalanuvchi nomini qo'shuvchi skriptdagi eng yaxshi qo'shuvchidir
+
+ O'rnatish: -
+
+ Barcha buyruqlarni termuxda ishga tushiring
+
+
+  termux-setup-storage
+
+apt update
+
+apt upgrade
+
+apt install python
+
+pkg install git
+
+pip install colorama
+
+
+  Endi zip jn fayl boshqaruvchisini chiqarib oling va skript manzilidan nusxa oling
+
+
+  Endi termuxdagi skriptlar katalogiga o'ting
+ ushbu buyruq yordamida
+
+ cd /sdcard/(zip faylni chiqaradigan papka)
+
+ Endi buyruqni bajaring: -
+
+ python ishlatish.py
+ python asosiy.py
+
+ Endi barcha jarayon tugallandi.
+
+
+ Qanday ishlatish :-
+
+ config.ini fayl boshqaruvchisi yoki istalgan uchinchi tomon matn muharriri ilovasidan tahrirlang.
+
+ Endi kerakli qiymatni to'ldiring.
+
+ Hammasi shu yerda tushuntirilgan
+
+ Guruhdan = Ushbu bo'limda siz SCRAPE a'zosini joylashtirmoqchi bo'lgan guruhning havolasi shu erda kiritiladi
+
+  Guruhga = Ushbu bo'limda siz a'zo qo'shmoqchi bo'lgan guruhning havolasi shu erda kiritiladi
+
+  GroupID = ushbu bo'limda siz guruh qo'shish guruhini qo'shishingiz kerak (Guruh identifikatori sizni guruhga qo'shilgan botdan oladi, bu erda siz misol sifatida a'zo qo'shmoqchi bo'lsangiz, guruh identifikatori quyidagicha ko'rinadi -1001561952101 )
+
+  PhoneNumber = Bu yerga telefon raqamini kiriting, "foydalanuvchi identifikatorini qo'shuvchi" dan foydalanish uchun faqat 1 ta raqam, shu kabi bir nechta telefon raqamlarini qo'shishingiz kerak 17312031527, 12612021971, lekin foydalanuvchi nomi uchun bu erda bitta raqamdan foydalaning
+
+  EnterStop = Buni tahrirlash shart emas
+
+  StartingAccount = Videoni tomosha qiling
+
+  EndAccount = Videoni tomosha qiling
